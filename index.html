@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ahmed Bakhadher — Cybersecurity Portfolio</title>
+<title>Ahmad Ali — Cybersecurity Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -713,7 +713,7 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">Ahmed<span>@</span>sec:~$</div>
+  <div class="nav-logo">Ahmad<span>@</span>sec:~$</div>
   <ul class="nav-links">
     <li><a href="#about">about</a></li>
     <li><a href="#certificates">certs</a></li>
@@ -728,8 +728,8 @@
     <div class="hero-content">
       <div class="hero-tag">Cybersecurity Analyst</div>
       <h1>
-        <span class="name-line">Ahmed</span>
-        <span class="name-line">Bakhadher</span>
+        <span class="name-line">Ahmad</span>
+        <span class="name-line">Ali</span>
       </h1>
       <div class="hero-subtitle">Junior Cybersecurity Analyst · Ethical Hacker</div>
       <p class="hero-desc">
@@ -750,7 +750,7 @@
       </div>
       <div class="terminal-body">
         <div><span class="t-prompt">❯ </span><span class="t-cmd">whoami</span></div>
-        <div class="t-out">Ahmed Bakhadher — Security Analyst</div>
+        <div class="t-out">Ahmad Ali — Security Analyst</div>
         <br>
         <div><span class="t-prompt">❯ </span><span class="t-cmd">cat skills.json</span></div>
         <div class="t-out">{</div>
@@ -782,13 +782,13 @@
         </div>
 
         <div class="about-content active" id="content-en">
-          <p>I'm <strong>Ahmed Bakhadher</strong>, a junior cybersecurity analyst based in Belgium with a strong passion for network security, ethical hacking, and secure system design.</p>
+          <p>I'm <strong>Ahmad Ali</strong>, a junior cybersecurity analyst based in Belgium with a strong passion for network security, ethical hacking, and secure system design.</p>
           <p>Over the past year I have completed multiple Cisco Networking Academy courses — from Networking Basics all the way to CyberOps Associate — and earned the <strong>Google Cloud Cybersecurity Certificate</strong>.</p>
           <p>I have hands-on experience analyzing <strong>SQL injection attacks</strong> using Wireshark PCAP files, building security reports, and applying the CIA Triad to real-world threat scenarios. I'm actively seeking my first professional role in cybersecurity.</p>
         </div>
 
         <div class="about-content" id="content-nl">
-          <p>Ik ben <strong>Ahmed Bakhadher</strong>, een junior cybersecurity analist gevestigd in België met een sterke passie voor netwerkbeveiliging, ethical hacking en veilig systeemontwerp.</p>
+          <p>Ik ben <strong>Ahmad Ali</strong>, een junior cybersecurity analist gevestigd in België met een sterke passie voor netwerkbeveiliging, ethical hacking en veilig systeemontwerp.</p>
           <p>Het afgelopen jaar heb ik meerdere Cisco Networking Academy cursussen afgerond — van Networking Basics tot CyberOps Associate — en het <strong>Google Cloud Cybersecurity Certificate</strong> behaald.</p>
           <p>Ik heb praktische ervaring met het analyseren van <strong>SQL-injectie aanvallen</strong> via Wireshark PCAP-bestanden, het opstellen van beveiligingsrapporten en het toepassen van de CIA Triad op realistische dreigingsscenario's. Ik ben actief op zoek naar mijn eerste professionele functie in cybersecurity.</p>
         </div>
@@ -1024,9 +1024,9 @@
         Open to junior cybersecurity roles, internships, and collaborations.<br>
         Beschikbaar voor junior cybersecurity functies en stages.
       </p>
-      <a href="/cdn-cgi/l/email-protection#2647444f48474a4f1166414b474f4a0845494b" class="contact-email reveal"><span class="__cf_email__" data-cfemail="7415161d1a15181d43341319151d185a171b19">[email&#160;protected]</span></a>
+      <a href="mailto:abinali7@gmail.com" class="contact-email reveal">abinali7@gmail.com</a>
       <div class="socials reveal">
-        <a href="https://www.linkedin.com/in/ahmed-bakhadher-aa0a4a235" target="_blank" class="social-link">LinkedIn · Ahmed Bakhadher</a>
+        <a href="https://www.linkedin.com/in/ahmed-bakhadher-aa0a4a235" target="_blank" class="social-link">LinkedIn · Ahmed Ali</a>
         <a href="https://github.com/hmadh7777" target="_blank" class="social-link">GitHub · hmadh7777</a>
         <a href="#" class="social-link">Download CV</a>
       </div>
@@ -1035,11 +1035,11 @@
 </section>
 
 <footer>
-  <p>© 2026 Ahmed Bakhadher — Cybersecurity Portfolio</p>
+  <p>© 2026 Ahmad Ali — Cybersecurity Portfolio</p>
   <p>Built with <span style="color:var(--accent)">HTML/CSS</span> · Hosted on GitHub Pages</p>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   // Custom cursor
   const cursor = document.getElementById('cursor');
   const ring = document.getElementById('cursorRing');
@@ -1075,4 +1075,11 @@
 
   // Language toggle
   function toggleLang(lang) {
-    document.querySelectorAll('.about-content').forEach(c => c.classList.remove('a
+    document.querySelectorAll('.about-content').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('content-' + lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</body>
+</html>
